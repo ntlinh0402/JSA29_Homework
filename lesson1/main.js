@@ -17,12 +17,16 @@ console.log(newArray.push('html'));
 console.log(newArray.pop())
 
 
+
+
 //HOMEWORK
 //ex1
 var fruitStorage = ['Grape', 15];
 var fruitQuantity = fruitStorage[1];
 var fruitName = fruitStorage[0];
 console.log('I have' + ' ' + fruitQuantity + ' ' + fruitName );
+
+
 
 //ex2
 
@@ -50,5 +54,12 @@ myDog.color = 'Brown';
 console.log(myDog);
 delete myDog.friends;
 console.log(myDog);
+
+
+
+function joinWithCharacter(array, charactor) {
+  return array.join(charactor)
+}
+
 
 
