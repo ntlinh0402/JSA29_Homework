@@ -8,5 +8,11 @@ login.addEventListener("submit",(e)=>{
         if (username.value.trim()==user[index].username && pass.value.trim()==user[index].pass){
             window.location.href = "../index.html"
         }
+        /* else if(username.value.trim()!==user[index].username && pass.value.trim()==user[index].pass){
+            alert("username is wrong")
+        }
+        else{
+            alert("password is wrong")
+        } */
     }
 })
