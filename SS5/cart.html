@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    body td, th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    tr:hover {background-color: #ddd;}
+    
+  
+    </style>
+<body onload="showAll()">
+    <div class="container">
+        <div class="top-menu">
+            <div>
+                <img src="images/logo.png" alt="lennin">
+            </div>
+            <div class="page">
+                <a href="#">Sản phẩm</a>
+                <a href="#">Sale</a>
+                <a href="#">Thư viện</a>
+                <a href="#">Giới thiệu</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="login/login.html">
+                    <i class="fa-solid fa-user" id="users"></i>
+                </a>
+                <div class="lines"></div>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+        </div>  
+
+        <form>
+            <fieldset>
+
+                <legend>Shopping cart</legend>
+                <label>Item:</label>
+                
+                <label>Quantity:</label>
+            </fieldset>
+            <div id="items_table">
+                <h2>Shopping List</h2>
+                <table id="list"></table>
+                <label>
+                    <input type="button" value="Clear" onclick="clearAll()">
+                </label>
+            </div>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

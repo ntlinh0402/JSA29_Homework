@@ -1,0 +1,19 @@
+{
+  "name": "jsa29",
+  "version": "1.0.0",
+  "description": "Đây là nơi lưu trữ bài học khóa JS nâng cao MindX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntlinh0402/JSA29_Homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntlinh0402/JSA29_Homework/issues"
+  },
+  "homepage": "https://github.com/ntlinh0402/JSA29_Homework#readme"
+}

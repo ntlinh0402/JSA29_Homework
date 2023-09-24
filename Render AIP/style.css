@@ -1,0 +1,26 @@
+
+#list-drinks
+{
+    display: inline;
+    padding: 20px;
+}
+#list{
+    display: flex;
+}
+ul {
+    list-style-type: none;
+  }
+  li{
+    margin-inline-start: 20px;
+
+    padding-left: 25px;
+    margin-left: 25px;
+    padding-right: 25px;
+
+    float: left;
+    border: 1px solid rgb(10, 10, 10);
+
+  }
+
+
+  
